@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jScrollPane1" pref="88" max="32767" attributes="0"/>
+                  <Component id="jComboBox1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane2" min="-2" pref="893" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jComboBox1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="jScrollPane2" min="-2" pref="479" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="18" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JComboBox" name="jComboBox1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="1"/>
+            <StringItem index="1" value="2"/>
+            <StringItem index="2" value="3"/>
+            <StringItem index="3" value="4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox1ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="jList1">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="8">
+                <StringItem index="0" value="&#x5e02;&#x573a;"/>
+                <StringItem index="1" value="&#x591c;&#x5e02;"/>
+                <StringItem index="2" value="&#x57ce;&#x5e02;"/>
+                <StringItem index="3" value="&#x5404;&#x56fd;"/>
+                <StringItem index="4" value="&#x5404;&#x5730;"/>
+                <StringItem index="5" value="&#x5404;&#x5bb6;"/>
+                <StringItem index="6" value="&#x5404;&#x79cd;&#x5404;&#x6837;"/>
+                <StringItem index="7" value="&#x4eae;&#x4eae;&#x6211;&#x53bb;&#x8d85;&#x5e02;&#x4e70;&#x4e1c;&#x897f;"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="valueChanged" listener="javax.swing.event.ListSelectionListener" parameters="javax.swing.event.ListSelectionEvent" handler="jList1ValueChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Monospaced" size="24" style="0"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="&#x65b9;&#x65b9;&#x4eae;&#x4eae;&#xff0c;&#x4f60;&#x53bb;&#x54ea;&#x513f;&#xa;&#x4eae;&#x4eae;&#x6211;&#x53bb;&#x8d85;&#x5e02;&#x4e70;&#x4e1c;&#x897f;&#xa;&#x65b9;&#x65b9;&#x6211;&#x6628;&#x5929;&#x4e5f;&#x53bb;&#x4e86;&#x8d85;&#x5e02;&#x90a3;&#x513f;&#x7684;&#x4e1c;&#x897f;&#x53ef;&#x591a;&#x4e86;&#xa;&#x4eae;&#x4eae;&#x90a3;&#x513f;&#x6709;&#x4ec0;&#x4e48;&#x5462;&#xa;&#x65b9;&#x65b9;&#x6709;&#x4e94;&#x989c;&#x516d;&#x8272;&#x7684;&#x7ec3;&#x4e60;&#x672c;&#x5404;&#x79cd;&#x5404;&#x6837;&#x7684;&#x7b14;&#x8fd8;&#x6709;&#x5f88;&#x591a;&#x6f02;&#x4eae;&#x7684;&#xa;&#x5c3a;&#x5b50;&#x5c0f;&#x5200;&#x548c;&#x4e66;&#x5305;&#xa;&#x4eae;&#x4eae;&#x90a3;&#x513f;&#x6709;&#x5361;&#x7247;&#x5417;&#x6211;&#x60f3;&#x4e70;&#x51e0;&#x5f20;&#x5361;&#x7247;&#xa;&#x65b9;&#x65b9;&#xff1a;&#x6709;&#x3002;&#x6709;&#x5f88;&#x591a;&#x6f02;&#x4eae;&#x7684;&#x5361;&#x7247;&#xff0c;&#x8fd8;&#x6709;&#x5f88;&#x591a;&#x597d;&#x73a9;&#x513f;&#x7684;&#x73a9;&#x5177;&#x3002;&#x4f60;&#xa;&#x770b;&#xff0c;&#x6211;&#x7684;&#x65b0;&#x4e66;&#x5305;&#x3002;&#xa;&#x4eae;&#x4eae;&#xff1a;&#x989c;&#x8272;&#x771f;&#x6f02;&#x4eae;&#x554a;&#xff01;&#x4e0a;&#x9762;&#x8fd9;&#x884c;&#x5c0f;&#x5c0f;&#x7684;&#x82f1;&#x6587;&#x5b57;&#x662f;&#x2026;&#x2026;&#xa;&#x65b9;&#x65b9;&#xff1a;Made in China.&#x4e2d;&#x56fd;&#x5236;&#x9020;&#x7684;&#x3002;&#x8fd9;&#x4e2a;&#x4e66;&#x5305;&#x662f;&#x4ece;&#x4e2d;&#x56fd;&#x8fdb;&#x53e3;&#x7684;&#x3002;&#xa;&#x4eae;&#x4eae;&#xff1a;&#x6211;&#x4e5f;&#x60f3;&#x4e70;&#x4e00;&#x4e2a;&#x8fd9;&#x4e48;&#x6f02;&#x4eae;&#x7684;&#x4e66;&#x5305;&#x3002;&#x4f60;&#x662f;&#x5728;&#x54ea;&#x91cc;&#x4e70;&#x7684;&#xff1f;&#xa;&#x65b9;&#x65b9;&#xff1a;&#x5c31;&#x5728;&#x524d;&#x9762;&#x7684;&#x8d85;&#x5e02;&#x3002;&#xa;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTextArea1MouseClicked"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
